@@ -34,9 +34,15 @@ Full-stack Todo application built with an ASP.NET Core backend and a React front
 The project includes **Swagger UI** for easy API testing and documentation.
 
 ### 🔐 Authorization Demo
-| Unauthorized | Login via Swagger | Authorize Token |
-| :---: | :---: | :---: |
-| ![Unauthorized](assets/swagger-unauthorized-demo.gif) | ![Login](assets/swagger-login-demo.gif) | ![Authorize](assets/swagger-authorize-token-demoo.gif) |
+
+#### 1. Unauthorized
+![Unauthorized](assets/swagger-unauthorized-demo.gif)
+
+#### 2. Login via Swagger
+![Login](assets/swagger-login-demo.gif)
+
+#### 3. Authorize Token 
+![Authorize](assets/swagger-authorize-token-demoo.gif)
 
 1.  Start the backend (`dotnet run`).
 2.  Navigate to `http://localhost:5001/swagger/index.html` (or your local port).
