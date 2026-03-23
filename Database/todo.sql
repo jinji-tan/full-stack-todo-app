@@ -1,0 +1,34 @@
+CREATE DATABASE CrudDB
+GO
+
+USE CrudDB
+GO
+
+CREATE SCHEMA CrudSchema
+GO
+
+CREATE TABLE CrudSchema.Users
+(
+    UserId INT IDENTITY(1,1) PRIMARY KEY,
+    Email NVARCHAR(200) NOT NULL UNIQUE,
+    PasswordHash VARBINARY(MAX) NOT NULL,
+    PasswordSalt VARBINARY(MAX) NOT NULL
+)
+
+CREATE TABLE CrudSchema.Task
+(
+    TaskId INT IDENTITY(1,1) PRIMARY KEY,
+    Title NVARCHAR(200) NOT NULL,
+    Description NVARCHAR(500) NULL,
+    IsCompleted BIT NOT NULL DEFAULT 0,
+    CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE(),
+    UpdatedAt DATETIME2 NULL
+)
+
+SELECT *
+FROM CrudSchema.Users
+GO
+
+SELECT *
+FROM CrudSchema.Task
+GO
