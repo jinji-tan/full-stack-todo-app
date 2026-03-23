@@ -1,9 +1,11 @@
 using HCrudAPI.Repositories.interfaces;
 using HCrudAPI.DTOs;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace HCrudAPI.Controllers
 {
+    [Authorize]
     [Route("/api/[controller]")]
     [ApiController]
     public class TodoController : ControllerBase
