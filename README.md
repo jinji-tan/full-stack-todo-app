@@ -9,7 +9,7 @@ Full-stack Todo application built with an ASP.NET Core backend and a React front
 
 ## 🚀 Tech Stack
 
-- **Frontend**: React, Vite, CSS.
+- **Frontend**: JavaScript, React, Vite, CSS.
 - **Backend**: .NET 8, ASP.NET Core, Dapper.
 - **Database**: SQL Server.
 
