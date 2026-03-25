@@ -18,7 +18,7 @@ Full-stack Todo application built with an ASP.NET Core backend and a React front
 ### 🔐 Authentication Flow
 | Registration | Login |
 | :---: | :---: |
-<!-- | ![Register](assets/register-demo.gif) | ![Login](assets/login-demo.gif) | -->
+| ![Register](assets/register-demo.gif) | ![Login](assets/login-demo.gif) |
 
 ### 📝 Task Management
 | View Tasks | Create Task |
